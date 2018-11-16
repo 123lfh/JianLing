@@ -1,0 +1,489 @@
+body{
+	color: rgb(119, 121, 134);
+	background-color: rgb(248, 248, 248);
+	font: 12px/1.5 "Microsoft Yahei", tahoma, 宋体, sans-serif;
+}
+.lsidebg{
+	float: left;
+	margin-left: -192px;
+    width: 384px;
+	padding-bottom: 3000px;
+    margin-bottom: -3000px;
+	background: url(../img/indeximg/lside_rp.png) repeat-y;
+}
+.lside{
+	width: 192px;
+    padding-left: 192px;
+	background: url(../img/indeximg/lside_bg.jpg) no-repeat;
+}
+.logo{
+	display: block;
+	width: 192px;
+	height: 143px;
+}
+.download{
+	display: block;
+	width: 192px;
+    height: 206px;
+	background-color: rgb(210, 93, 30);
+	position: relative;
+}
+.downtop{
+	width: 192px;
+    height: 21px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+	background: url(../img/indeximg/spr.png) no-repeat 0 0;
+}
+.downtext1{
+	width: 192px;
+    height: 127px;
+	position: absolute;
+    top: 90px;
+    left: 0px;
+    opacity: 0;
+    z-index: 9;
+	background: url(../img/indeximg/spr.png) no-repeat 0 -21px;
+	transition: .2s;
+}
+.downtext2{
+	width: 192px;
+    height: 145px;
+	position: absolute;
+    top: 40px;
+    left: 0px;
+	background: url(../img/indeximg/spr.png) no-repeat 0 -148px;
+	transition: .2s;
+}
+.btnrp{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+    left: 0px;
+    z-index: 8;
+	background: url(../img/indeximg/btn_rp.png) repeat;
+}
+.download:hover{
+	color: rgb(238, 0, 0);
+}
+.download:hover .downtext1{
+	opacity: 1;
+    top: 48px;
+}
+.download:hover .downtext2{
+	opacity: 0;
+    top: 10px;
+}
+.fastlink{
+	height: 95px;
+    background-color: rgb(242, 120, 47);
+    width: 192px;
+    display: block;
+    border-bottom: 3px solid rgb(210, 93, 30);
+    overflow: hidden;
+	position: relative;
+}
+.fasticon1{
+	width: 50px;
+    height: 50px;
+    margin: 10px auto 0px;
+	background: url(../img/indeximg/spr.png) no-repeat -100px -304px;
+	transition: .2s;
+}
+.fasttext1{
+	width: 100%;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    color: rgb(54, 49, 63);
+    text-align: center;
+    display: block;
+	transition: .2s;
+}
+.fastlink:hover{
+	background-color: rgb(246, 144, 60);
+    border-bottom: 3px solid rgb(224, 118, 40);
+}
+.fastlink:hover .fasticon1{
+	margin-top: -12px;
+    opacity: 0;
+}
+.fastlink:hover .fasttext1{
+	font-weight: bold;
+    color: rgb(86, 48, 40);
+}
+.fastlink2{
+	height: 87px;
+    line-height: 87px;
+    color: rgb(137, 157, 205);
+    font-size: 16px;
+    text-align: center;
+	display: block;
+    border-bottom: 1px solid rgb(61, 55, 71);
+}
+.fasticon2{
+	width: 50px;
+    height: 50px;
+    float: left;
+    opacity: 0.5;
+    position: relative;
+    z-index: 11;
+    overflow: hidden;
+    margin: 17px 0px 0px 28px;
+	background: url(../img/indeximg/spr.png) no-repeat 0px -304px;
+	transition: .2s;
+}
+.fasttext{
+	float: left;
+    position: relative;
+    z-index: 11;
+	transition: .2s;
+}
+.fasticon3{
+	background-position: -50px -304px;
+}
+.fasticon4{
+	background-position: -150px -304px;
+}
+.fasticon5{
+	background-position: -150px -354px;
+}
+.fastlink2:hover {
+	color: rgb(165, 248, 255);
+    background: rgb(46, 123, 141);
+}
+.fastlink2:hover .fasticon2{
+	margin-left: 14px;
+    opacity: 0;
+}
+.fastlink2:hover .fasttext{
+	font-weight: bold;
+}
+.lsidelist{
+	width: 192px;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(61, 55, 71);
+}
+.lsidelist li{
+	float: left;
+    width: 95px;
+    height: 100px;
+    border-left: 1px solid rgb(61, 55, 71);
+    border-top: 1px solid rgb(61, 55, 71);
+	transition: .2s;
+}
+.lsidelist a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+}
+.sidelisticon1{
+	width: 50px;
+    height: 50px;
+    display: block;
+    opacity: 0.5;
+    margin: 13px auto 0px;
+	background: url(../img/indeximg/spr.png) no-repeat 0px -354px;
+	transition: .2s;
+}
+.sideiconname{
+    height: 26px;
+    line-height: 26px;
+    color: rgb(137, 157, 205);
+    font-size: 14px;
+    text-align: center;
+	transition: .2s;
+}
+.sidelisticon2{
+	background-position: -50px -354px;
+}
+.sidelisticon3{
+	background: url(../img/indeximg/lside-icon-shop.png) no-repeat 4px 4px;
+}
+.sidelisticon4{
+	background-position: 0px -404px;
+}
+.sidelisticon5{
+	background-position: -100px -354px;
+}
+.sidelisticon6{
+	background-position: -100px -404px;
+}
+.lsidelist li:hover a{
+    background: rgb(46, 123, 141);
+}
+.lsidelist li:hover .sidelisticon1{
+	margin-top: -16px;
+    opacity: 0;
+}
+.lsidelist li:hover .sideiconname{
+	color: rgb(165, 248, 255);
+	font-weight: bold;
+}
+.cooplink{
+	width: 159px;
+    padding: 24px 0px 0px 27px;
+    overflow: hidden;
+}
+.cooplink li{
+	float: left;
+    width: 34px;
+    height: 34px;
+    display: inline;
+    margin: 0px 19px 22px 0px;
+	position: relative;
+}
+.cooplink a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.coopiconbg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: rgba(149,137,128,.3);
+	transition: .2s;
+}
+.cooplinkicon1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+	background: url(../img/indeximg/spr.png) no-repeat 0px -454px;
+}
+.cooplinkicon2{
+	background-position: -34px -488px;
+}
+.cooplinkicon3{
+	background-position: -68px -488px;
+}
+.cooplinkicon4{
+	background-position: -102px -454px;
+}
+.cooplinkicon5{
+	background-position: -136px -454px;
+}
+.cooplinkicon6{
+	background-position: 0px -488px;
+}
+.cooplinkicon7{
+	background-position: -34px -454px;
+}
+.cooplinkicon8{
+	background-position: -68px -454px;
+}
+.cooplinkicon9{
+	background-position: -102px -488px;
+}
+.cooplink li:hover .coopiconbg{
+	opacity: 1;
+    transform: rotateY(180deg);
+    background: rgb(46, 123, 141);
+}
+.cooplink li:hover .cooplinkicon1{
+	opacity: 1;
+}
+.coopmedia{
+	width: 180px;
+    height: 23px;
+    line-height: 23px;
+    color: rgb(70, 72, 83);
+    font-family: 宋体, tahoma;
+    border-width: 6px;
+    border: 6px solid rgb(58, 53, 67);
+}
+.coopmedia a{
+	color: rgb(194, 85, 33);
+	display: block;
+	padding-left: 20px;
+}
+.coopmediaicon{
+	width: 11px;
+    height: 6px;
+    float: right;
+    display: inline;
+    margin: 9px 7px 0px 0px;
+	background: url(../img/indeximg/spr.png) no-repeat -192px 0px;
+}
+.dispose{
+	display: block;
+    margin: 20px 0px 0px 25px;
+    overflow: hidden;
+}
+.disposetitle{
+	font-size: 16px;
+    color: rgb(194, 85, 33);
+    height: 40px;
+    line-height: 40px;
+	font-weight: normal;
+}
+.dispose p{
+	line-height: 20px;
+    color: rgb(81, 85, 101);
+}
+.dispose span{
+	float: left;
+    width: 35px;
+    color: rgb(143, 151, 180);
+    height: 20px;
+}
+.main{
+	position: relative;
+	overflow: hidden;
+}
+.nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 45px;
+    width: 100%;
+    padding-left: 23px;
+    z-index: 10;
+    overflow: hidden;
+	transition: .5s;
+}
+.navlist{
+	padding-top: 15px;
+    height: 20px;
+    width: 100%;
+}
+.navlist li{
+	float: left;
+    text-align: center;
+    width: 100px;
+    height: 18px;
+    padding: 0px 10px;
+    border-right: 1px solid rgb(141, 138, 142);
+}
+.navlist .noright{
+	border-right: none;
+}
+.navlink{
+	font-size: 14px;
+    line-height: 16px;
+    color: rgb(34, 35, 42);
+    font-weight: bold;
+}
+.navbtmlist{
+	height: 10px;
+    width: 100%;
+    line-height: 10px;
+    font-size: 8px;
+    color: rgb(63, 66, 78);
+}
+.navbtmlist li{
+	float: left;
+	text-align: center;
+	width: 101px;
+	height: 10px;
+	padding: 0 10px;
+}
+.navbtmlist span{
+	display: block;
+	font-size: 8px;
+}
+.xllist{
+	width: 100%;
+	height: 185px;
+	position: absolute;
+    top: 51px;
+    left: 23px;
+	z-index: 10px;
+}
+.xllist li{
+	float: left;
+    height: 160px;
+    width: 120px;
+    padding-top: 10px;
+    text-align: center;
+    border-right: 1px solid rgb(227, 228, 220);
+}
+.xllistlink{
+	display: inline-block;
+	height: 19px;
+	line-height: 19px;
+	color: rgb(47,47,48);
+	padding: 2px 10px;
+}
+.nav:hover {
+	height: 271px;
+	background: -webkit-linear-gradient(top, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+.navlist li:hover a{
+	color: rgb(161, 64, 18);
+}
+.xllist a:hover{
+	color: rgb(255, 255, 255);
+    background: rgb(194, 85, 33);
+}
+
+
+
+footer{
+	background: rgb(0,0,0);
+	padding: 30px 20px;
+	margin: 0 auto;
+}
+.inner2{
+	width: 1080px;
+	margin: 0 auto;
+}
+.cpright{
+	padding: 20px 0;
+}
+.footleft{
+	float: left;
+	display: block;
+}
+.yllogo{
+	float: left;
+    width: 180px;
+    height: 35px;
+    overflow: hidden;
+    margin: 32px 0 0 10px;
+	background: url(../img/indeximg/foot-dark.png) no-repeat;
+}
+.nxlogo{
+	float: left;
+	width: 126px;
+    height: 32px;
+	margin: 32px 0 0 10px;
+	overflow: hidden;
+    background: url(../img/indeximg/spr.png) no-repeat 0px -628px;
+}
+.footright{
+	float: right;
+	width: 690px;
+    white-space: nowrap;
+}
+.footright li{
+	line-height: 20px;
+    overflow: hidden;
+	color: #a5a5a5;
+}
+.footright a{
+	font-size: 12px;
+	color: #a5a5a5;
+}
+.linkmap span,.f_line{
+	font-size: 12px;
+    color: #a5a5a5;
+	margin: 0 2px;
+}
+.copyprivate img{
+	width: 13px;
+	height: 15px;
+	vertical-align: middle;
+	margin-right: 2px;
+}

@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/大小缩放.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/大小缩放.js"></script>
+
+</head>
+<body>
+<header>
+    <div class="nav0" id="nav">
+        <div class="inner">
+            <ul class="nav_ul clear">
+                <li class="nav_li">
+                    <a href=""></a>
+                </li>
+                <li class="nav_li1">
+
+                </li>
+                <li class="nav_li2">
+                    <p class="nav_p1 ">
+                        <a href="">返回官网首页</a>
+                    </p>
+                    <p class="nav_p2">
+                        <a class="nav_p2_a" href="">游戏下载</a>
+                        <a class="nav_p2_a" href=""> 点券充值</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="shang" id="shang">
+        <h1>
+            <a href="" class="logo spr ti pa"></a>
+        </h1>
+        <div class="topbar spr" id="topbar">
+            <ul class="topnav">
+                <li class="spr lborder"><a href="欢迎页.html">进入官网</a></li>
+                <li class="spr"><a href="">灵值中心</a></li>
+                <li class="spr"><a href="">官方微博</a></li>
+                <li class="rborder c1">微信号：<em class="wechat">LOVEBNS</em></li>
+            </ul>
+            <div class="login" id="unlogin" style="display: block;">
+                <a class="login-btn pr spr" href="javascript:;" id="btn_qqlogin">登录<span class="icon-user spr pa"></span></a>
+            </div>
+            <div class="login" id="logined" style="display:none;">
+                <a class="login-btn logout pr spr" href="javascript:;" id="btn_logout">注销<span class="icon-out spr pa"></span></a>
+                <p class="login-text pr"><span class="icon-user spr pa"></span><span id="login_qq_span">-</span>，欢迎您！</p>
+            </div>
+        </div>
+    </div>
+</header>
+<article>
+    <div class="nav-bar" id="fall-nav">
+        <ul>
+            <li class="nav nav1">
+                <a href="javascript:;" class="active">首</a>
+            </li>
+            <li class="nav nav2">
+                <a href="javascript:;" class="">我</a>
+            </li>
+            <li class="nav nav3">
+                <a href="javascript:;" class="">岳</a>
+            </li>
+            <li class="nav nav4">
+                <a href="javascript:;" class="">极</a>
+            </li>
+            <li class="nav nav5">
+                <a href="javascript:;" class="">优</a>
+            </li>
+            <li class="nav nav6">
+                <a href="javascript:;" class="">师</a>
+            </li>
+            <li class="nav nav7">
+                <a href="javascript:;" class="">福</a>
+            </li>
+        </ul>
+    </div>
+    <div class="wrap fade-scale" id="fall-scroll">
+        <div class="bg1 fall-section" id="section0">
+            <div class="video-box">
+                <video class="video" id="video" src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/bg_media.mp4" autoplay="autoplay" loop="loop"></video>
+                <div class="video-bg"></div>
+            </div>
+            <div id="scene0" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                <div class="slogan layer" data-depth="0.08" style="transform: translate3d(2.7808px, -7.86987px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slogan1.png" alt="" style="opacity: 1;"></div>
+            </div>
+            <a href="javascript:playVideo('popup','o0717522hft');" class="video-btn" style="opacity: 1;">播放视频</a>
+            <i class="scroll-icon" style="opacity: 1;"></i>
+        </div>
+        <div class="bg2 fall-section" id="section1">
+            <div id="scene1" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                <div class="slogan1-1" style="opacity: 1;"></div>
+                <div class="slogan1-2" style="opacity: 1;"></div>
+                <div class="love-man layer" data-depth="0.12" style="transform: translate3d(4.1712px, -11.8048px, 0px); transform-style: preserve-3d; backface-visibility: hidden; margin-left: -550px; top: 8%; opacity: 1;"></div>
+                <div class="hot-man layer" data-depth="-0.12" style="transform: translate3d(-4.1712px, 11.8048px, 0px); transform-style: preserve-3d; backface-visibility: hidden; margin-left: -58px; top: 12.3%; opacity: 1;"></div>
+                <div class="left-arrow">
+                    <div class="love-man-tit" style="right: 78px; opacity: 1;"></div>
+                </div>
+                <div class="right-arrow">
+                    <div class="hot-man-tit" style="left: 66px; opacity: 1;"></div>
+                </div>
+                <a href="//bns.qq.com/cp/a20180627fightversion/page04.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+            </div>
+        </div>
+        <div class="bg3 fall-section" id="section2">
+            <div id="scene2" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                <div class="yue-cj" style="opacity: 1;"></div>
+                <div class="missyue layer" data-depth="0.06" style="transform: translate3d(2.0856px, -5.90241px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                    <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/missyue.png" alt="" style="width: 524px; opacity: 1;">
+                </div>
+                <div class="slogan2" style="opacity: 1;"></div>
+                <a href="//bns.qq.com/cp/a20180627fightversion/page06.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+            </div>
+        </div>
+        <div class="bg4 fall-section" id="section3">
+            <div id="scene3" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                <div class="slogan3" style="opacity: 1;"></div>
+                <div class="boss1 layer" data-depth="0.1" style="transform: translate3d(3.476px, -9.83734px, 0px); transform-style: preserve-3d; backface-visibility: hidden; margin-left: -930px; opacity: 1;"></div>
+                <div class="boss2 layer" data-depth="-0.1" style="transform: translate3d(-3.476px, 9.83734px, 0px); transform-style: preserve-3d; backface-visibility: hidden; margin-left: 246px; opacity: 1;"></div>
+                <div class="slide1" style="opacity: 1;">
+                    <div id="slide1" class="slide1-box fade">
+                        <div class="hd">
+                            <ul>
+                                <li class="                                                                                                                                                                         ">
+                                    <a href="javascript:;"></a>
+                                </li>
+                                <li class="                                                                                                                                                                         ">
+                                    <a href="javascript:;"></a>
+                                </li>
+                                <li class="                                                                                                                                                                         ">
+                                    <a href="javascript:;"></a>
+                                </li>
+                                <li class="                                                                                                                                                                         ">
+                                    <a href="javascript:;"></a>
+                                </li>
+                                <li class="                                                                                                                                                                         on">
+                                    <a href="javascript:;"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bd">
+                            <div class="tab-panel dis" style="z-index: 1; opacity: 0;">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-1.jpg" alt="" width="880" height="481">
+                            </div>
+                            <div class="tab-panel" style="z-index: 1; opacity: 0;">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-2.jpg" alt="" width="880" height="481">
+                            </div>
+                            <div class="tab-panel" style="z-index: 1; opacity: 0;">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-3.jpg" alt="" width="880" height="481">
+                            </div>
+                            <div class="tab-panel" style="z-index: 1; opacity: 0;">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-4.jpg" alt="" width="880" height="481">
+                            </div>
+                            <div class="tab-panel" style="z-index: 3; opacity: 1;">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-5.jpg" alt="" width="880" height="481">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="//bns.qq.com/cp/a20180627fightversion/page02.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+            </div>
+        </div>
+        <div class="bg5 fall-section" id="section4">
+            <div class="slogan4" style="opacity: 1;"></div>
+            <div class="blade-ico" style="opacity: 1;"></div>
+            <a href="//bns.qq.com/cp/a20180627fightversion/page05.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+        </div>
+        <div class="bg6 fall-section" id="section5">
+            <div class="slogan5" style="opacity: 1;"></div>
+            <div class="slide1" style="opacity: 1;">
+                <div id="slide2" class="slide1-box">
+                    <div class="bd">
+                        <div class="tab-panel" style="opacity: 1;filter: alpha(opacity=100);">
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide2-1.jpg" alt="" width="880" height="481">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="//bns.qq.com/cp/a20180627fightversion/page03.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+        </div>
+        <div class="bg7 fall-section active current" id="section6">
+            <div class="slogan6" style="opacity: 1;"></div>
+            <div class="slide1" style="opacity: 1;">
+                <div id="slide3" class="slide1-box">
+                    <div class="bd">
+                        <div class="tab-panel" style="opacity: 1;filter: alpha(opacity=100);">
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide3-1.jpg" alt="" width="880" height="481">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="//bns.qq.com/webplat/info/news_version3/1298/15027/15029/m11526/201807/737511.shtml" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+        </div>
+        <div class="wrap fade-scale" id="fall-scroll">
+            <div class="bg1 fall-section" id="section0">
+                <div class="video-box">
+                    <video class="video" id="video" src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/bg_media.mp4" autoplay="autoplay" loop="loop"></video>
+                    <div class="video-bg"></div>
+                </div>
+                <div id="scene0" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                    <div class="slogan layer" data-depth="0.08" style="transform: translate3d(2.7808px, -7.86987px, 0px); transform-style: preserve-3d; backface-visibility: hidden;"><img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slogan1.png" alt="" style="opacity: 1;"></div>
+                </div>
+                <a href="javascript:playVideo('popup','o0717522hft');" class="video-btn" style="opacity: 1;">播放视频</a>
+                <i class="scroll-icon" style="opacity: 1;"></i>
+            </div>
+            <div class="bg2 fall-section" id="section1">
+                <div id="scene1" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                    <div class="slogan1-1" style="opacity: 1;"></div>
+                    <div class="slogan1-2" style="opacity: 1;"></div>
+                    <div class="love-man layer" data-depth="0.12" style="transform: translate3d(4.1712px, -11.8048px, 0px); transform-style: preserve-3d; backface-visibility: hidden; margin-left: -550px; top: 8%; opacity: 1;"></div>
+                    <div class="hot-man layer" data-depth="-0.12" style="transform: translate3d(-4.1712px, 11.8048px, 0px); transform-style: preserve-3d; backface-visibility: hidden; margin-left: -58px; top: 12.3%; opacity: 1;"></div>
+                    <div class="left-arrow">
+                        <div class="love-man-tit" style="right: 78px; opacity: 1;"></div>
+                    </div>
+                    <div class="right-arrow">
+                        <div class="hot-man-tit" style="left: 66px; opacity: 1;"></div>
+                    </div>
+                    <a href="//bns.qq.com/cp/a20180627fightversion/page04.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+                </div>
+            </div>
+            <div class="bg3 fall-section" id="section2">
+                <div id="scene2" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                    <div class="yue-cj" style="opacity: 1;"></div>
+                    <div class="missyue layer" data-depth="0.06" style="transform: translate3d(2.0856px, -5.90241px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                        <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/missyue.png" alt="" style="width: 524px; opacity: 1;">
+                    </div>
+                    <div class="slogan2" style="opacity: 1;"></div>
+                    <a href="//bns.qq.com/cp/a20180627fightversion/page06.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+                </div>
+            </div>
+            <div class="bg4 fall-section" id="section3">
+                <div id="scene3" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; backface-visibility: hidden;">
+                    <div class="slogan3" style="opacity: 1;"></div>
+                    <div class="boss1 layer" data-depth="0.1" style="transform: translate3d(3.476px, -9.83734px, 0px); transform-style: preserve-3d; backface-visibility: hidden; margin-left: -930px; opacity: 1;"></div>
+                    <div class="boss2 layer" data-depth="-0.1" style="transform: translate3d(-3.476px, 9.83734px, 0px); transform-style: preserve-3d; backface-visibility: hidden; margin-left: 246px; opacity: 1;"></div>
+                    <div class="slide1" style="opacity: 1;">
+                        <div id="slide1" class="slide1-box fade">
+                            <div class="hd">
+                                <ul>
+                                    <li class="                                                                                                                                                                         ">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li class="                                                                                                                                                                         on">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li class="                                                                                                                                                                        ">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li class="                                                                                                                                                                        ">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                    <li class="                                                                                                                                                                        ">
+                                        <a href="javascript:;"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bd">
+                                <div class="tab-panel dis" style="z-index: 1; opacity: 0;">
+                                    <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-1.jpg" alt="" width="880" height="481">
+                                </div>
+                                <div class="tab-panel" style="z-index: 3; opacity: 1;">
+                                    <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-2.jpg" alt="" width="880" height="481">
+                                </div>
+                                <div class="tab-panel" style="z-index: 1; opacity: 0;">
+                                    <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-3.jpg" alt="" width="880" height="481">
+                                </div>
+                                <div class="tab-panel" style="z-index: 1; opacity: 0;">
+                                    <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-4.jpg" alt="" width="880" height="481">
+                                </div>
+                                <div class="tab-panel" style="z-index: 1; opacity: 0;">
+                                    <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide1-5.jpg" alt="" width="880" height="481">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="//bns.qq.com/cp/a20180627fightversion/page02.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+                </div>
+            </div>
+            <div class="bg5 fall-section" id="section4">
+                <div class="slogan4" style="opacity: 1;"></div>
+                <div class="blade-ico" style="opacity: 1;"></div>
+                <a href="//bns.qq.com/cp/a20180627fightversion/page05.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+            </div>
+            <div class="bg6 fall-section" id="section5">
+                <div class="slogan5" style="opacity: 1;"></div>
+                <div class="slide1" style="opacity: 1;">
+                    <div id="slide2" class="slide1-box">
+                        <!-- <div class="hd">
+                            <ul>
+                                <li>
+                                    <a href="javascript:;"></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"></a>
+                                </li>
+                            </ul>
+                        </div> -->
+                        <div class="bd">
+                            <div class="tab-panel" style="opacity: 1;filter: alpha(opacity=100);">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide2-1.jpg" alt="" width="880" height="481">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="//bns.qq.com/cp/a20180627fightversion/page03.htm" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+            </div>
+            <div class="bg7 fall-section active current" id="section6">
+                <div class="slogan6" style="opacity: 1;"></div>
+                <div class="slide1" style="opacity: 1;">
+                    <div id="slide3" class="slide1-box">
+                        <div class="bd">
+                            <div class="tab-panel" style="opacity: 1;filter: alpha(opacity=100);">
+                                <img src="//game.gtimg.cn/images/bns/cp/a20180627fightversion/slide3-1.jpg" alt="" width="880" height="481">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="//bns.qq.com/webplat/info/news_version3/1298/15027/15029/m11526/201807/737511.shtml" target="_blank" class="scan-btn" style="opacity: 1;">查看详情</a>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup" style="display:none;">
+        <div class="pop-v" id="p-video"></div>
+        <a href="javascript:closeVideo();" class="close-btn">×</a>
+    </div>
+</article>
+<footer>
+    <div id="afooter">
+        <div id="footer_ieg">
+            <div class="wrap_ieg">
+                <p><a href="" target="_blank">腾讯互动娱乐</a>&nbsp;|
+                    &nbsp;<a href="" target="_blank">服务条款</a>&nbsp;|
+                    &nbsp;<a href="" target="_blank">隐私政策</a>&nbsp;|
+                    &nbsp;<a href="" target="_blank">腾讯游戏招聘</a>&nbsp;|
+                    &nbsp;<a href="" target="_blank">腾讯游戏客服</a>&nbsp;|
+                    &nbsp;<a href="" target="_blank">游戏地图</a>&nbsp;|
+                    &nbsp;<a href="" target="_blank">成长守护平台</a>&nbsp;|
+                    &nbsp;<a href="" target="_blank">商务合作</a>&nbsp;|
+                    &nbsp;<a href="" target="_blank">网站导航</a></p>
+                <p class="e copyright_en">COPYRIGHT © 1998 – 2018 TENCENT. ALL RIGHTS RESERVED.</p>
+                <p class="copyright_zh"><a href="" target="_blank">腾讯公司 版权所有</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="//ossweb-img.qq.com/images/js/jquery/jquery-1.9.1.min.js"></script>
+<script src="//ossweb-img.qq.com/images/bns/title/bns.js"></script>
+<script src="//game.gtimg.cn/images/js/2018foot/foot.js"></script>
+<script src="//ossweb-img.qq.com/images/js/dr/dr.js"></script>
+<script src="//ossweb-img.qq.com/images/js/milo/milo-min.js"></script>
+<script type="text/javascript" src="//ossweb-img.qq.com/images/js/milo/milo.js"></script>
+<script src="//ossweb-img.qq.com/images/js/eas/eas.js" type="text/javascript"></script>
+<script src="//dr.game.qq.com/dr.php" type="text/javascript"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/event.js"></script>
+<script src="js/jquery.mousewheel-3.1.13.min.js"></script>
+<script>
+    need("biz.tabs",function (tabs){
+        //简单调用
+        var playTab1 = tabs.init("slide1", "tab-panel", {
+            timeout: 80,//延迟切换时间。默认参数为60;
+            currCls: "on",//设置当前标签（li）class 名。默认参数为"on";
+            disCls: "dis",//控制显示class名。默认参数为"dis";
+            event: "mouseover",//事件类型。默认为"mouseover";
+            animation: "fade",//有动画效果设置此参数。参数可选slide/fade (滚动/渐入)
+            auto: true,//是否自动切换。默认为false
+            Pause: 300  //每次自动停顿时间(auto为true时有效)
+        });
+        /*var playTab2 = tabs.init("slide2", "tab-panel", {
+         timeout: 80,//延迟切换时间。默认参数为60;
+         currCls: "on",//设置当前标签（li）class 名。默认参数为"on";
+         disCls: "dis",//控制显示class名。默认参数为"dis";
+         event: "mouseover",//事件类型。默认为"mouseover";
+         animation: "fade",//有动画效果设置此参数。参数可选slide/fade (滚动/渐入)
+         auto: true,//是否自动切换。默认为false
+         Pause: 300  //每次自动停顿时间(auto为true时有效)
+         });
+         var playTab3 = tabs.init("slide3", "tab-panel", {
+         timeout: 80,//延迟切换时间。默认参数为60;
+         currCls: "on",//设置当前标签（li）class 名。默认参数为"on";
+         disCls: "dis",//控制显示class名。默认参数为"dis";
+         event: "mouseover",//事件类型。默认为"mouseover";
+         animation: "fade",//有动画效果设置此参数。参数可选slide/fade (滚动/渐入)
+         auto: true,//是否自动切换。默认为false
+         Pause: 300  //每次自动停顿时间(auto为true时有效)
+         });*/
+    });
+    $('#scene0').parallax();
+    $('#scene1').parallax();
+    $('#scene2').parallax();
+    $('#scene3').parallax();
+    //login
+    milo.addEvent(g("dologin"), "click", function() {
+        need("biz.login-min",function(LoginManager){
+            LoginManager.init({
+                needReloadPage:true
+            });
+            LoginManager.login();
+        });
+        return false;
+    });
+    milo.addEvent(g("dologout"), "click", function() {
+        need("biz.login-min",function(LoginManager){
+            LoginManager.logout();
+        });
+        return false;
+    });
+    milo.ready(function() {
+        need("biz.login-min",function(LoginManager){
+            LoginManager.checkLogin(function(){
+                g("login_qq_span").innerHTML = LoginManager.getUserUin();//获取QQ号
+                //获取QQ号class="wxhide"
+                if (LoginManager.getUserUin() == '' || LoginManager.getUserUin() == undefined) {
+                    alert("端游的活动需要用QQ登录才可以参与哦");
+                    return ;
+                }
+            });
+        });
+    });
+    // Dialog
+    function TGDialogS(e){
+        need("biz.dialog-min",function(Dialog){
+            Dialog.show({
+                id:e,
+                bgcolor:'#000', //弹出“遮罩”的颜色，格式为"#FF6600"，可修改，默认为"#fff"
+                opacity:70      //弹出“遮罩”的透明度，格式为｛10-100｝，可选
+            });
+        });
+    }
+    function closeDialog(){
+        need("biz.dialog-min",function(Dialog){
+            Dialog.hide();
+        });
+    }
+    function playVideo(e,vid){
+        if(vid == '' || vid == undefined){
+            return alert('敬请期待');
+        }
+        TGDialogS(e);
+        var player = new Txplayer({
+            containerId: 'p-video',
+            vid: vid,
+            width: '800',
+            height: '450',
+            playerType: 'html5hd',
+            extendPluginsMap: {
+                vod: {
+                    flash: ["Barrage"]
+                },
+                html5hd: ["Barrage"]
+            },
+            autoplay: true
+        });
+    }
+    function closeVideo(){
+        document.getElementById('p-video').innerHTML = '';
+        closeDialog();
+    }
+</script>
+<script>
+    //此段代码不能放到外链JS中，
+    //事例：onclick="PTTSendClick('btn','start','开始游戏');"
+    var setSite={ //设置网站属性
+        siteType:"a20180627fightversion", //必填项:"os"代表是官网，如果不是，则填写actName例如a20160701xxx
+        pageType:"index", //必填项:本页面的定位；按照页面含义填写例如main||list||detail||download||share||page1||pageN
+        pageName:"首页", //必填项:页面中文名
+        osact:0, //选填项:是否是官网专题(在官网运营的专题)boolean；默认是0；可以在链接上加入参数osact=1来灵活设置
+        ingame:0, //选填项:是否投放在游戏APP内boolean；默认是0；可以在链接上加入参数ingame=1来灵活设置
+        stayTime:0 //选填项:是否需要统计停留时长boolean；默认是0
+    }
+    if(typeof(pgvMain)=='function')pgvMain();//千万不能忘记！
+</script>
+</body>
+</html>

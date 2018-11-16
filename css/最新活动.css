@@ -1,0 +1,575 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav0{
+    width: 100%;
+    height: 42px;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 9999;
+}
+.nav0 .nav_ul li{
+    width: 220px;
+    height: 42px;
+    float: left;
+
+}
+.nav0 .nav_ul .nav_li{
+    padding: 0 15px 0 0;
+    margin: 0 15px 0 0;
+    background: url("../image/top.jpg")no-repeat;
+    background-position: 0 -42px;
+}
+.nav0 .nav_ul .nav_li1{
+    width: 230px;
+    background: url("../image/top.jpg")no-repeat;
+    background-position: 0 -84px;
+}
+.nav0 .nav_ul .nav_li2{
+    width: 246px;
+    height: 42px;
+    float: right;
+    line-height: 42px;
+}
+.nav0 .nav_ul .nav_li2 .nav_p1{
+    float: right;
+    width: 68px;
+    height: 21px;
+    padding: 0 0 0 28px;
+    background: url(../image/top.jpg) no-repeat;
+    background-position: 0 -137px;
+    line-height: 42px;
+    margin-top: 10px;
+    position: relative;
+}
+.nav0 .nav_ul .nav_li2 a{
+    font-size: 12px;
+    color: #666666;
+}
+.nav0 .nav_ul .nav_li2 .nav_p1 a{
+    overflow: hidden;
+    position: absolute;
+    top: -10px;
+    left: 17px;
+}
+.nav0 .nav_ul .nav_li2 .nav_p1 a:hover{
+    color: #0096D0 ;
+}
+.nav0 .nav_ul .nav_li2 .nav_p2_a{
+    border-right: 1px solid #BFC6D7;
+    padding: 0 9px;
+}
+#shang{
+    position: fixed;
+    top: 42px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.logo{
+    height: 104px;
+    width: 150px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.ti {
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+}
+.spr {
+    background: url(../image/spr24.png) no-repeat;
+}
+.pa {
+    position: absolute;
+}
+.topbar {
+    width: 100%;
+    height: 48px;
+    background-repeat: repeat-x;
+    background-position: 0 -104px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+.topnav {
+    float: left;
+    height: 30px;
+    padding: 10px 0 0 130px;
+}
+.topnav li {
+    float: left;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 27px;
+    background-position: -82px -154px;
+    color: #FFF;
+}
+.topnav li a {
+    font-size: 12px;
+    color: #fff;
+}
+.topnav a {
+    display: inline-block;
+    zoom: 1;
+}
+.topnav li.rborder, .topnav li.rborder .wechat {
+    color: #5b834e;
+}
+.topnav .wechat {
+    font-family: '宋体',tahoma;
+    font-size: 12px;
+    color: #fff;
+}
+.login {
+    float: right;
+    padding: 8px 25px 0 0;
+}
+.login a {
+    color: #5b834e;
+}
+.login-btn {
+    float: right;
+    background-position: 0 -218px;
+    width: 92px;
+    height: 32px;
+    padding-right: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+.icon-user {
+    background-position: 0 -154px;
+    width: 9px;
+    height: 13px;
+    overflow: hidden;
+    position: absolute;
+    right: 52px;
+    top: 17px;
+    z-index: 999;
+}
+/*最上边结束*/
+.bg {
+    margin-top: 90px;
+    position: relative;
+    width: 100%;
+    height: 1226px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/bg.jpg) no-repeat top center;
+}
+.cont {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.slogan {
+    position: absolute;
+    left: 50%;
+    margin-left: -453px;
+    top: 22px;
+    width: 905px;
+    height: 400px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/slogan.png) no-repeat;
+}
+.wegame-logo {
+    position: absolute;
+    left: 50%;
+    margin-left: 188px;
+    top: 70px;
+    width: 295px;
+    height: 66px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/wegame.png) no-repeat;
+}
+.progress {
+    position: absolute;
+    top: 431px;
+    left: 50%;
+    margin-left: -139px;
+    width: 278px;
+    height: 47px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/progress.png) no-repeat;
+    font-size: 20px;
+    color: #ffe244;
+    font-weight: bold;
+    line-height: 47px;
+    text-indent: 200px;
+}
+.recv-tips {
+    position: absolute;
+    top: 780px;
+    left: 50%;
+    margin-left: -171px;
+    width: 343px;
+    height: 21px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/tit.png) no-repeat;
+}
+.ti {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.btn1 {
+    position: absolute;
+    top: 338px;
+    left: 50%;
+    margin-left: -545px;
+    width: 358px;
+    height: 266px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn1.png) no-repeat;
+    transition: all .3s;
+    -webkit-animation: ani1 .6s ease-in-out .3s both;
+    animation: ani1 .6s ease-in-out .3s both;
+}
+.btn2 {
+    position: absolute;
+    top: 550px;
+    left: 50%;
+    margin-left: -596px;
+    width: 322px;
+    height: 233px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn2.png) no-repeat;
+    transition: all .3s;
+    -webkit-animation: ani2 .6s ease-in-out .325s both;
+    animation: ani2 .6s ease-in-out .325s both;
+}
+.btn3 {
+    position: absolute;
+    top: 746px;
+    left: 50%;
+    margin-left: -522px;
+    width: 399px;
+    height: 339px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn3.png) no-repeat;
+    transition: all .3s;
+    -webkit-animation: ani3 .6s ease-in-out .375s both;
+    animation: ani3 .6s ease-in-out .375s both;
+}
+.btn4 {
+    position: absolute;
+    top: 810px;
+    left: 50%;
+    margin-left: -194px;
+    width: 370px;
+    height: 318px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn4.png) no-repeat;
+    transition: all .3s;
+    -webkit-animation: ani4 .6s ease-in-out .425s both;
+    animation: ani4 .6s ease-in-out .425s both;
+}
+.btn5 {
+    position: absolute;
+    top: 758px;
+    left: 50%;
+    margin-left: 100px;
+    width: 350px;
+    height: 330px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn5.png) no-repeat;
+    transition: all .3s;
+    -webkit-animation: ani5 .6s ease-in-out .34s both;
+    animation: ani5 .6s ease-in-out .34s both;
+}
+.btn6 {
+    position: absolute;
+    top: 570px;
+    left: 50%;
+    margin-left: 212px;
+    width: 302px;
+    height: 222px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn6.png) no-repeat;
+    transition: all .3s;
+    -webkit-animation: ani6 .6s ease-in-out .35s both;
+    animation: ani6 .6s ease-in-out .35s both;
+}
+.btn7 {
+    position: absolute;
+    top: 365px;
+    left: 50%;
+    margin-left: 190px;
+    width: 299px;
+    height: 222px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn7.png) no-repeat;
+    transition: all .3s;
+    -webkit-animation: ani7 .6s ease-in-out .34s both;
+    animation: ani7 .6s ease-in-out .34s both;
+}
+.main-btn {
+    position: absolute;
+    top: 565px;
+    left: 50%;
+    margin-left: -158px;
+    width: 317px;
+    height: 109px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/main-btn1.png) no-repeat;
+    transition: all .3s;
+}
+.inner-gift {
+    visibility: hidden;
+    position: absolute;
+    top: -196px;
+    left: 50%;
+    margin-left: -203px;
+    width: 394px;
+    height: 190px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/gift-box.png) no-repeat;
+    overflow: hidden;
+}
+.hide{
+    display: none;
+}
+.inner-gift ul {
+    width: 380px;
+    margin: 65px auto 0;
+}
+
+.clearfix {
+    zoom: 1;
+}
+.inner-gift ul li {
+    float: left;
+    width: 76px;
+    font-size: 12px;
+    color: #b8c9fc;
+    text-align: center;
+}
+.cof1 {
+    position: absolute;
+    top: 760px;
+    right: 6px;
+    width: 145px;
+    height: 180px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/ken1.png) no-repeat;
+    transition: all .3s;
+    opacity: .6;
+    /*filter: alpha(opacity=60);*/
+}
+.bg2 {
+    position: relative;
+    width: 100%;
+    height: 1695px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/bg2.jpg) no-repeat top center;
+}
+.active-time {
+    padding-top: 68px;
+    width: 100%;
+    text-align: center;
+}
+.active-time span.tit2 {
+    display: inline-block;
+    width: 373px;
+    height: 20px;
+    vertical-align: 2px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/tit2.png) no-repeat;
+}
+.active-time a.scan-btn {
+    display: inline-block;
+    width: 150px;
+    height: 27px;
+    margin-left: 18px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/scan-btn.png) no-repeat;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.active-time a.scan-btn2 {
+    display: inline-block;
+    width: 150px;
+    height: 27px;
+    margin-left: 18px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/scan-btn2.png) no-repeat;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.partner {
+    width: 1200px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+.partner li.parter-box1 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter1.png) no-repeat;
+}
+.partner li {
+    position: relative;
+    float: left;
+    width: 348px;
+    height: 451px;
+    margin: 0 26px 38px;
+}
+.partner li dl {
+    padding-top: 196px;
+    width: 340px;
+    margin: 0 auto;
+}
+.partner li dl dd {
+    float: left;
+    width: 75px;
+    margin: 0 5px;
+    font-size: 12px;
+    color: #bebebe;
+    text-align: center;
+}
+.partner li dl dd img {
+    border: 1px solid #2551f5;
+}
+.opr-btn {
+    width: 340px;
+    height: 47px;
+    margin: 14px auto 0;
+}
+.opr-btn a.parter-btn1 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter-btn1.png) no-repeat;
+}
+.opr-btn a {
+    float: left;
+    width: 160px;
+    height: 47px;
+    margin: 0 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.opr-btn a.recv-btn {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/recv-btn.png) no-repeat;
+}
+.partner li.parter-box2 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter2.png) no-repeat;
+}
+.opr-btn a.parter-btn2 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter-btn2.png) no-repeat;
+}
+.partner li.parter-box3 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter3.png) no-repeat;
+}
+
+.opr-btn a.parter-btn3 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter-btn3.png) no-repeat;
+}
+.partner li.parter-box4 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter4.png) no-repeat;
+}
+.opr-btn a.parter-btn4 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter-btn4.png) no-repeat;
+}
+.partner li.parter-box5 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter5.png) no-repeat;
+}
+.opr-btn a.parter-btn5 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter-btn5.png) no-repeat;
+}
+.partner li.parter-box6 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter6.png) no-repeat;
+}
+.opr-btn a.parter-btn6 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter-btn6.png) no-repeat;
+}
+.partner li.parter-box7 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter7.png) no-repeat;
+}
+.look-it {
+    position: absolute;
+    top: 168px;
+    left: 180px;
+    font-size: 16px;
+    color: #eb9f08;
+    text-decoration: underline;
+}
+.opr-btn a.parter-btn7 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter-btn7.png) no-repeat;
+}
+.partner li.parter-box8 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter8.png) no-repeat;
+}
+.opr-btn a.recv-btn2 {
+    display: block;
+    width: 329px;
+    height: 47px;
+    margin: 0 5px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/recv-btn2.png) no-repeat;
+}
+.partner li.parter-box9 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/parter9.png) no-repeat;
+}
+.slide-bar {
+    position: fixed;
+    right: 2px;
+    top: 460px;
+    width: 158px;
+    height: 318px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/slide-bg.png) no-repeat;
+}
+.slide-bar ul li.go-top {
+    width: 75px;
+    height: 86px;
+    margin: 0 auto;
+}
+.slide-bar ul li.go-top a {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/sli-bar1.png);
+}
+.slide-bar ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-indent: -999em;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.slide-bar ul li.go-parter {
+    width: 158px;
+    height: 194px;
+    margin: 38px auto 0;
+}
+.slide-bar ul li.go-parter a {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/sli-bar2.png);
+}
+
+.btn1:hover, .btn1.on {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn1-on.png) no-repeat;
+}
+.btn2:hover, .btn2.on {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn2-on.png) no-repeat;
+}
+.btn3:hover, .btn3.on {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn3-on.png) no-repeat;
+}
+.btn4:hover, .btn4.on {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn4-on.png) no-repeat;
+}
+.btn5:hover, .btn5.on {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn5-on.png) no-repeat;
+}
+.btn6:hover, .btn6.on {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn6-on.png) no-repeat;
+}
+.btn7:hover, .btn7.on {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180605versions/btn7-on.png) no-repeat;
+}
+.opr-btn a:hover {
+    filter: brightness(1.3);
+}
+#afooter {
+    position: absolute;
+    top: 993px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    line-height: 20px;
+    background-position: top;
+    color: #6a6a6a;
+    background-color: #0e0e0e;
+    padding: 30px 0;
+    margin-top: 1924px;
+}
+#afooter a {
+    color: #6a6a6a;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1',tahoma,'\5b8b\4f53',sans-serif;
+}

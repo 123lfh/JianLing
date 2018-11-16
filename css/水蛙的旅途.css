@@ -1,0 +1,543 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav0{
+    width: 100%;
+    height: 42px;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 9999;
+}
+.nav0 .nav_ul li{
+    width: 220px;
+    height: 42px;
+    float: left;
+
+}
+.nav0 .nav_ul .nav_li{
+    padding: 0 15px 0 0;
+    margin: 0 15px 0 0;
+    background: url("../image/top.jpg")no-repeat;
+    background-position: 0 -42px;
+}
+.nav0 .nav_ul .nav_li1{
+    width: 230px;
+    background: url("../image/top.jpg")no-repeat;
+    background-position: 0 -84px;
+}
+.nav0 .nav_ul .nav_li2{
+    width: 246px;
+    height: 42px;
+    float: right;
+    line-height: 42px;
+}
+.nav0 .nav_ul .nav_li2 .nav_p1{
+    float: right;
+    width: 68px;
+    height: 21px;
+    padding: 0 0 0 28px;
+    background: url(../image/top.jpg) no-repeat;
+    background-position: 0 -137px;
+    line-height: 42px;
+    margin-top: 10px;
+    position: relative;
+}
+.nav0 .nav_ul .nav_li2 a{
+    font-size: 12px;
+    color: #666666;
+}
+.nav0 .nav_ul .nav_li2 .nav_p1 a{
+    overflow: hidden;
+    position: absolute;
+    top: -10px;
+    left: 17px;
+}
+.nav0 .nav_ul .nav_li2 .nav_p1 a:hover{
+    color: #0096D0 ;
+}
+.nav0 .nav_ul .nav_li2 .nav_p2_a{
+    border-right: 1px solid #BFC6D7;
+    padding: 0 9px;
+}
+#shang{
+    position: fixed;
+    top: 42px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.logo{
+    height: 104px;
+    width: 150px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.ti {
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+}
+.spr {
+    background: url(../image/spr24.png) no-repeat;
+}
+.pa {
+    position: absolute;
+}
+.topbar {
+    width: 100%;
+    height: 48px;
+    background-repeat: repeat-x;
+    background-position: 0 -104px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+.topnav {
+    float: left;
+    height: 30px;
+    padding: 10px 0 0 130px;
+}
+.topnav li {
+    float: left;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 27px;
+    background-position: -82px -154px;
+    color: #FFF;
+}
+.topnav li a {
+    font-size: 12px;
+    color: #fff;
+}
+.topnav a {
+    display: inline-block;
+    zoom: 1;
+}
+.topnav li.rborder, .topnav li.rborder .wechat {
+    color: #5b834e;
+}
+.topnav .wechat {
+    font-family: '宋体',tahoma;
+    font-size: 12px;
+    color: #fff;
+}
+.login {
+    float: right;
+    padding: 8px 25px 0 0;
+}
+.login a {
+    color: #5b834e;
+}
+.login-btn {
+    float: right;
+    background-position: 0 -218px;
+    width: 92px;
+    height: 32px;
+    padding-right: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+.icon-user {
+    background-position: 0 -154px;
+    width: 9px;
+    height: 13px;
+    overflow: hidden;
+    position: absolute;
+    right: 52px;
+    top: 17px;
+    z-index: 999;
+}
+/*最上边结束*/
+#afooter{
+    position: absolute;
+    top: 993px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    line-height: 20px;
+    background-position: top;
+    color: #6a6a6a;
+    background-color: #0e0e0e;
+    padding: 30px 0;
+    margin-top: 3522px;
+}
+#afooter a {
+    color: #6a6a6a;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1',tahoma,'\5b8b\4f53',sans-serif;
+}
+
+
+
+.popup {
+    display: none;
+    background-color: #fff;
+    width: 640px;
+    height: 420px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10000;
+    top: 50%;
+    left: 50%;
+    margin: -210px 0 0 -315px;
+    color: #333;
+}
+.popup-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #aa0006;
+    color: #fff;
+    font-size: 50px;
+    width: 60px;
+    height: 60px;
+    line-height: 54px;
+    text-align: center;
+}
+.popup-hd {
+    font-weight: bold;
+    font-size: 24px;
+    color: #c50000;
+    padding: 30px 0 10px;
+    text-align: center;
+}
+.popup-bd {
+    padding: 10px 50px;
+}
+.popup-tip-hd {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 0;
+}
+.popup-list {
+    padding: 20px 0;
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.popup-list th, .popup-list tbody td {
+    width: 180px;
+}
+.popup-list th {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: left;
+}
+.popup-list tbody td {
+    padding: 5px 0;
+    border-bottom: 1px dotted #bbb;
+}
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.popup-list tfoot td {
+    text-align: center;
+    padding: 20px 0;
+}.popup-list tfoot a {
+     margin: 0 20px;
+     color: #333;
+ }
+.popup-list tfoot .cur, .popup-list tfoot a:hover {
+    color: #c50000;
+}
+.bg1 {
+    width: 100%;
+    height: 683px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/bg1.jpg) no-repeat top center;
+}
+.cont1 {
+    position: relative;
+    width: 1200px;
+    height: 683px;
+    margin: 0 auto;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/cont1.jpg) no-repeat top center;
+}
+.slogan {
+    position: absolute;
+    top: 26px;
+    left: 72px;
+    width: 569px;
+    height: 480px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/slogan.png) no-repeat;
+}
+.wegame-logo {
+    top: 30px;
+    left: 50%;
+    margin-left: -38px;
+    width: 238px;
+    height: 54px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/wegame-logo.png) no-repeat;
+}
+.pa{
+    position: absolute;
+}
+.ti {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.bg2 {
+    width: 100%;
+    height: 1140px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/bg2.jpg) no-repeat top center;
+}
+.cont2 {
+     position: relative;
+     width: 1200px;
+     height: 1140px;
+     margin: 0 auto;
+     background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/cont2.jpg) no-repeat top center;
+ }
+.active-time {
+    padding-top: 146px;
+    font-size: 14px;
+    color: #f3cb2a;
+    text-align: center;
+}
+.tit1 {
+    margin: 18px 0 270px;
+    font-size: 14px;
+    color: #31a866;
+    text-align: center;
+}
+.trips-info {
+    width: 100%;
+}
+.trips-img {
+    width: 909px;
+}
+.btn1 {
+    display: block;
+    width: 293px;
+    height: 87px;
+    margin: 20px auto;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/btn-spr.png) no-repeat 0 0;
+}
+.trans {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.trip-times {
+    position: relative;
+    width: 282px;
+    height: 392px;
+    margin-top: 93px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/tr-nums.jpg) no-repeat;
+    overflow: hidden;
+}
+.times-num {
+    position: absolute;
+    top: 27px;
+    left: 181px;
+    font-size: 24px;
+    color: #ffd634;
+}
+.btn2 {
+    display: block;
+    width: 185px;
+    height: 49px;
+    margin: 290px auto 10px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/btn-spr.png) no-repeat 0 -180px;
+}
+.recv-tips {
+    font-size: 12px;
+    color: #288c77;
+    text-align: center;
+}
+.bg3 {
+    width: 100%;
+    height: 1184px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/bg3.jpg) no-repeat top center;
+}
+.cont3 {
+    position: relative;
+    width: 1200px;
+    height: 1184px;
+    margin: 0 auto;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/cont3.jpg) no-repeat top center;
+}
+.tit2 {
+    padding-top: 160px;
+    font-size: 14px;
+    color: #31a866;
+    text-align: center;
+}
+.cards {
+    width: 1137px;
+    margin: 0 auto;
+    padding-top: 52px;
+}
+.cards li {
+    float: left;
+    width: 323px;
+    height: 387px;
+    margin: 0 28px 60px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/gift-bg.png) no-repeat;
+}
+.cards li dl {
+    width: 314px;
+    font-size: 12px;
+    color: #0fce64;
+}
+.cards li dl dt.dt-tit1 {
+    background-position: 0 -329px;
+}
+.cards li dl dt.dt-tit2 {
+    background-position: 0 -397px;
+}
+.cards li dl dt.dt-tit3 {
+    background-position: 0 -465px;
+}
+.cards li dl dt.dt-tit4 {
+    background-position: 0 -533px;
+}
+.cards li dl dt.dt-tit5 {
+    background-position: 0 -601px;
+}
+.cards li dl dt.dt-tit6 {
+    background-position: 0 -669px;
+}
+.cards li dl dt {
+    width: 314px;
+    height: 68px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/btn-spr.png) no-repeat;
+}
+.cards li dl dd {
+    float: left;
+    width: 50%;
+    padding: 50px 0;
+    text-align: center;
+}
+.cards li dl dd img {
+    border: 2px solid #158547;
+}
+.recv-btn {
+    display: block;
+    width: 232px;
+    height: 93px;
+    margin: 0 auto;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/btn-spr.png) no-repeat 0 -87px;
+}
+.bg4{
+    width: 100%;
+    height: 834px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/bg4.jpg) no-repeat top center;
+}
+.cont4 {
+    position: relative;
+    width: 1200px;
+    height: 834px;
+    margin: 0 auto;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/cont4.jpg) no-repeat top center;
+}
+.tit3 {
+    padding-top: 144px;
+    font-size: 14px;
+    color: #31a866;
+    text-align: center;
+}
+.times-trip {
+    width: 440px;
+    height: 49px;
+    margin: 20px auto 14px;
+    font-size: 16px;
+    color: #f3cb2a;
+    text-align: center;
+    line-height: 49px;
+}
+.sign-btn {
+    float: left;
+    width: 185px;
+    height: 49px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/btn-spr.png) no-repeat -194px -180px;
+}
+.times-trip span {
+    float: left;
+    height: 49px;
+    margin-left: 10px;
+    line-height: 49px;
+}
+.cards-show {
+    width: 293px;
+    height: 441px;
+    margin: 0 auto;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/gugu-card.png) no-repeat;
+}
+.btn3 {
+    display: block;
+    width: 314px;
+    height: 90px;
+    margin: 20px auto;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/btn-spr.png) no-repeat 0 -239px;
+}
+.bg5 {
+    width: 100%;
+    height: 791px;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/bg5.jpg) no-repeat top center;
+}
+.cont5 {
+    position: relative;
+    width: 1200px;
+    height: 791px;
+    margin: 0 auto;
+    background: url(//game.gtimg.cn/images/bns/cp/a20180619ggtrip/cont5.jpg) no-repeat top center;
+}
+.trips-photos-box {
+    padding-top: 207px;
+}
+.trips-photos {
+    width: 1110px;
+    margin: 0 auto;
+}
+/*.clearfix:after {*/
+    /*display: block;*/
+    /*visibility: hidden;*/
+    /*font-size: 0px;*/
+    /*content: "";*/
+    /*clear: both;*/
+    /*height: 0;*/
+/*}*/
+.pages-box {
+    width: 380px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.pages-box a.page-btns {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    background: #0fce64;
+    font-size: 12px;
+    color: #08372d;
+    text-align: center;
+    line-height: 20px;
+}
+

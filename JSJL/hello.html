@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>剑灵官方网站-腾讯游戏</title>
+		<link rel="shortcut icon" href="img/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/hello.css"/>
+		<script>
+			window.onload = function() {
+				var oDiv = document.getElementsByClassName('active')[0];
+				var oDiv2 = document.getElementsByTagName('header')[0];
+				var divT = oDiv.offsetTop;
+				//console.log(divT);
+				window.onscroll = function() {
+					// 获取当前页面的滚动条纵坐标位置 （依次为火狐谷歌、safari、IE678）
+					var scrollT = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
+					if (scrollT >= divT) {
+						if (window.navigator.userAgent.indexOf('MSIE 6.0') != -1) {
+							// 兼容IE6代码
+							oDiv2.style.position = 'absolute';
+							oDiv2.style.top = scrollT + 'px';
+							oDiv2.style.left = 0 + 'px';
+							oDiv2.style.zIndex = '999';
+						} else {
+							// 正常浏览器代码
+							oDiv2.style.position = 'fixed';
+							oDiv2.style.top = 0;
+							oDiv2.style.left = 0;
+							oDiv2.style.zIndex = '999';
+						}
+					} else
+						oDiv2.style.position = '';
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<header class="spr">
+			<div class="inner-head clearfix">
+				<a class="logo spr" href="javascript:;"></a>
+				<a class="enter spr" href="index.html" target="_blank"></a>
+				<ul>
+					<li><a class="down down1" href="javascript:;"></a></li>
+					<li><a class="down down2" href="javascript:;"></a></li>
+					<li><a class="down down3" href="javascript:;"></a></li>
+					<li><a class="down down4" href="javascript:;"></a></li>
+					<li><a class="down down5" href="javascript:;"></a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="warp">
+			<div class="top-box">
+				<div class="top-box-word">
+					[当前版本]
+					<span>v2.289.7641.14</span>
+					&nbsp;&nbsp;&nbsp;&nbsp;[文件大小]
+					<span>20.7GB</span>
+					&nbsp;&nbsp;&nbsp;&nbsp;[更新日期]
+					<span>2018-09-21</span>
+				</div>
+				<div class="top-box-bg"></div>
+			</div>
+			<div class="main-box">
+				<div class="move-mask"></div>
+				<div class="screen">
+					<div class="move-box">
+						<a class="move-jpg" href="javascript:;"></a>
+						<a class="move-btn" href="javascript:;"></a>
+					</div>
+				</div>
+			</div>
+			<div class="active">
+				<div class="active-box1">
+					<a href="javascript:;"></a>
+				</div>
+				<div class="active-box2">
+					<a href="javascript:;"></a>
+				</div>
+				<div class="active-box3">
+					<div class="active-box3-max">
+						<img src="img/helloimg/28bb3390be091d1c1916a659025580fb.jpg" >
+						<img src="img/helloimg/6dcc50c0ebb40d670c2caa0f1aa5fe3a.jpg" >
+						<img src="img/helloimg/a98743c03d8809c2a9de89e95122400d.jpg" >
+						<img src="img/helloimg/d3e78068eecaef8b2b26fcf1deed4b3f.jpg" >
+						<img src="img/helloimg/1520851526.jpg" >
+					</div>
+					<div class="port">
+						<span class="on"></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<script src="js/move.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript">
+				var oBox = document.getElementsByClassName('active-box3')[0];
+				var aOl = document.getElementsByClassName('port')[0];
+				var oBtn = aOl.getElementsByTagName('span');
+				var oUl = document.getElementsByClassName('active-box3-max')[0];
+				var oImg = oUl.children[0].cloneNode(true);
+				oUl.appendChild(oImg);
+				var now = 0;//图片下标
+				var otl = 0;//点的下标
+				function tab() {
+					for (var i = 0; i < oBtn.length; i++) {
+						oBtn[i].index=i;
+						oBtn[i].onclick=function () {
+						for (var i = 0; i < oBtn.length; i++) {
+							oBtn[i].className=''
+						}
+						this.className='on';
+						startMove(oUl,{left:-333*(this.index)}),
+						now = otl = this.index;
+						}
+					}
+				}
+				
+				function next() {
+					if (now == oUl.children.length-1) {
+						now = 0;
+						oUl.style.left=0;
+					}
+					now++;
+					startMove(oUl,{left:-333*(now)})
+					if (otl<oBtn.length-1) {
+						otl++;
+					} else{
+						otl=0;
+					}
+					for (var i = 0; i < oBtn.length; i++) {
+						oBtn[i].className='';
+					}
+					oBtn[otl].className='on';
+				}
+				
+				var timer=setInterval(next,1500);
+				
+				oBox.onmouseover=function () {
+					clearInterval(timer);
+					tab();
+				}
+				oBox.onmouseout=function () {
+					timer = setInterval(next,1500);
+				}
+			</script>
+			<div class="warp-type"></div>
+			<div class="content">
+				<div class="inner-content clearfix">
+					<h2 class="content-title">剑灵诊所</h2>
+					<p class="content-des">为您解决客户端报错、闪退、延迟、卡机等问题，助您流畅运行剑灵</p>
+					<div class="content-left">
+						<p class="content-left-title">
+							为您解决客户端进入游戏解决
+							<span class="t2">
+								延迟高，掉线，<br>
+								登陆时报错（200、300、1000、2000、3000）
+							</span>
+						</p>
+						<div class="drives">
+							<a class="link" href="javascript:;">TGP(剑灵专用免费加速)</a>
+							<a class="link" href="javascript:;">QQ会员加速小助手</a>
+							<a class="link" href="javascript:;">剑灵定制迅游加速器</a>
+						</div>
+					</div>
+					<div class="content-right">
+						<p class="content-left-title">
+							安装客户端时，请务必
+							<span class="t2">
+								安装DXSETUP及vcredist_x86两个组件
+							</span>
+							，否则可能造成无法进入游戏或者客户端崩溃等问题。
+						</p>
+						<div class="drives">
+							<a class="link" href="javascript:;">DirectX</a>
+							<a class="link" href="javascript:;">Microsoft visual C++</a>
+							<a class="link" href="javascript:;">报错修复</a>
+							<a class="link link1" href="javascript:;">
+								Nvidia显卡驱动<br>
+								<span class="t3">64位(推荐)</span>
+							</a>
+							<a class="link link1" href="javascript:;">
+								Nvidia显卡驱动<br>
+								<span class="t3">32位(建议升级)</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="tab-box">
+					<h2 class="content-title">配置要求以及推荐</h2>
+					<p class="content-des">为了体验到剑灵的真正魅力，享受华丽的视觉盛宴，建议您使用推荐硬件配置和Win7 64位系统来进行游戏</p>
+					<div class="tab-box-btn">
+						<a class="onc" href="javascript:;">3档流畅</a>
+						<a href="javascript:;">4档</a>
+						<a href="javascript:;">5档&nbsp;(推荐)</a>
+						<a href="javascript:;">Ultra&nbsp;(顶级)</a>
+					</div>
+					<div class="tab-box-cot">
+						<div class="tab-box-cot-cont" style="display: block;">
+							<p>
+								<span class="tab-box-cot-s1">CPU</span>
+								<span class="tab-box-cot-s2">推荐第四代智能英特尔酷睿i3处理器</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">内存</span>
+								<span class="tab-box-cot-s2">4GB及以上</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">显卡</span>
+								<span class="tab-box-cot-s2">GeForce GT 640 D5 , GT 640M(笔记本)</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">硬盘</span>
+								<span class="tab-box-cot-s2">7200转机械硬盘</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">系统</span>
+								<span class="tab-box-cot-s2">Windows 7(64位) DirectX 9.0C</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">屏幕分辨率</span>
+								<span class="tab-box-cot-s2">1440X900</span>
+							</p>
+						</div>
+						<div class="tab-box-cot-cont">
+							<p>
+								<span class="tab-box-cot-s1">CPU</span>
+								<span class="tab-box-cot-s2">推荐第四代智能英特尔酷睿i5处理器</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">内存</span>
+								<span class="tab-box-cot-s2">4GB及以上</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">显卡</span>
+								<span class="tab-box-cot-s2">GeForce GTX 650 , GTX 750M(笔记本)</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">硬盘</span>
+								<span class="tab-box-cot-s2">7200转机械硬盘</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">系统</span>
+								<span class="tab-box-cot-s2">Windows 7(64位) DirectX 9.0C</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">屏幕分辨率</span>
+								<span class="tab-box-cot-s2">1920X1080</span>
+							</p>
+						</div>
+						<div class="tab-box-cot-cont">
+							<p>
+								<span class="tab-box-cot-s1">CPU</span>
+								<span class="tab-box-cot-s2">推荐第四代智能英特尔酷睿i7处理器</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">内存</span>
+								<span class="tab-box-cot-s2">4GB及以上</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">显卡</span>
+								<span class="tab-box-cot-s2">GeForce GTX 750 , GTX 750 Ti , GTX 760M(笔记本)<br>GTX 765M</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">硬盘</span>
+								<span class="tab-box-cot-s2">7200转机械硬盘 , SSD(固态硬盘)</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">系统</span>
+								<span class="tab-box-cot-s2">Windows 7(64位) DirectX 9.0C</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">屏幕分辨率</span>
+								<span class="tab-box-cot-s2">1920X1080</span>
+							</p>
+						</div>
+						<div class="tab-box-cot-cont">
+							<p>
+								<span class="tab-box-cot-s1">CPU</span>
+								<span class="tab-box-cot-s2">推荐第四代智能英特尔酷睿i7-4770K处理器</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">内存</span>
+								<span class="tab-box-cot-s2">8GB及以上</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">显卡</span>
+								<span class="tab-box-cot-s2">GeForce GTX 660 , GeForce GTX 760 , GTX 770<br >GTX 680M , GTX 780M</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">硬盘</span>
+								<span class="tab-box-cot-s2">7200转机械硬盘 , SSD(固态硬盘)</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">系统</span>
+								<span class="tab-box-cot-s2">Windows 7(64位) DirectX 9.0C</span>
+							</p>
+							<p>
+								<span class="tab-box-cot-s1">屏幕分辨率</span>
+								<span class="tab-box-cot-s2">2560x1600</span>
+							</p>
+						</div>
+					</div>
+					<div class="tab-box-bg"></div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				var oBtn1 = document.getElementsByClassName('tab-box-btn')[0].getElementsByTagName('a');
+				var oDiv1 = document.getElementsByClassName('tab-box-cot')[0].getElementsByClassName('tab-box-cot-cont');
+				
+				for (let i=0;i<oBtn1.length;i++) {
+					oBtn1[i].onclick = function  () {
+						for (let j=0;j<oDiv1.length;j++) {
+							oBtn1[j].classList.remove('onc');
+							oDiv1[j].style.display='none';
+						}
+						oBtn1[i].classList.add('onc');
+						oDiv1[i].style.display='block';
+					}
+				}
+			</script>
+		</div>
+		<footer>
+			<div class="inner inner2">
+				<div class="cpright clearfix">
+					<div class="footleft clearfix">
+						<a class="yllogo" href="javascript:;"></a>
+						<a class="nxlogo" href="javascript:;"></a>
+					</div>
+					<div class="footright">
+						<ul>
+							<li class="linkmap clearfix">
+								<a href="javascript:;">腾讯互动娱乐</a><span>丨</span>
+								<a href="javascript:;">服务条款</a><span>丨</span>
+								<a href="javascript:;">隐私政策</a><span>丨</span>
+								<a href="javascript:;">腾讯游戏招聘</a><span>丨</span>
+								<a href="javascript:;">腾讯游戏客服</a><span>丨</span>
+								<a href="javascript:;">腾讯地图</a><span>丨</span>
+								<a href="javascript:;">商务合作</a><span>丨</span>
+								<a href="javascript:;">腾讯网</a><span>丨</span>
+								<a href="javascript:;">网站导航</a><span>丨</span>
+							</li>
+							<li><a href="javascript:;">腾讯公司版权所有</a></li>
+							<li><p>COPYRIGHT © 1998 - 2018 TENCENT. ALL RIGHTS RESERVED.</p></li>
+							<li class="copypublic"><a href="javascript:;">粤网文[2017]6138-1456号</a><span class="f_line">|</span><a href="javascript:;">新出网证（粤）字010号</a></li>
+							<li class="copyprivate"><a href="javascript:;"><img src="img/icplogo.png"/>文网游进字[2016]0083号</a><span class="f_line">|</span>新广出审[2016]783号<span class="f_line">|</span>出版物号：ISBN 978-7-89988-706-6<span class="f_line">|</span>全国文化市场统一举报电话：12318</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

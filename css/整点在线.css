@@ -1,0 +1,555 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav0{
+    width: 100%;
+    height: 42px;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 9999;
+}
+.nav0 .nav_ul li{
+    width: 220px;
+    height: 42px;
+    float: left;
+
+}
+.nav0 .nav_ul .nav_li{
+    padding: 0 15px 0 0;
+    margin: 0 15px 0 0;
+    background: url("../image/top.jpg")no-repeat;
+    background-position: 0 -42px;
+}
+.nav0 .nav_ul .nav_li1{
+    width: 230px;
+    background: url("../image/top.jpg")no-repeat;
+    background-position: 0 -84px;
+}
+.nav0 .nav_ul .nav_li2{
+    width: 246px;
+    height: 42px;
+    float: right;
+    line-height: 42px;
+}
+.nav0 .nav_ul .nav_li2 .nav_p1{
+    float: right;
+    width: 68px;
+    height: 21px;
+    padding: 0 0 0 28px;
+    background: url(../image/top.jpg) no-repeat;
+    background-position: 0 -137px;
+    line-height: 42px;
+    margin-top: 10px;
+    position: relative;
+}
+.nav0 .nav_ul .nav_li2 a{
+    font-size: 12px;
+    color: #666666;
+}
+.nav0 .nav_ul .nav_li2 .nav_p1 a{
+    overflow: hidden;
+    position: absolute;
+    top: -10px;
+    left: 17px;
+}
+.nav0 .nav_ul .nav_li2 .nav_p1 a:hover{
+    color: #0096D0 ;
+}
+.nav0 .nav_ul .nav_li2 .nav_p2_a{
+    border-right: 1px solid #BFC6D7;
+    padding: 0 9px;
+}
+#shang{
+    position: fixed;
+    top: 42px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.logo{
+    height: 104px;
+    width: 150px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.ti {
+    text-indent: -9999px;
+    overflow: hidden;
+    display: block;
+}
+.spr {
+    background: url(../image/spr24.png) no-repeat;
+}
+.pa {
+    position: absolute;
+}
+.topbar {
+    width: 100%;
+    height: 48px;
+    background-repeat: repeat-x;
+    background-position: 0 -104px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+.topnav {
+    float: left;
+    height: 30px;
+    padding: 10px 0 0 130px;
+}
+.topnav li {
+    float: left;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 27px;
+    background-position: -82px -154px;
+    color: #FFF;
+}
+.topnav li a {
+    font-size: 12px;
+    color: #fff;
+}
+.topnav a {
+    display: inline-block;
+    zoom: 1;
+}
+.topnav li.rborder, .topnav li.rborder .wechat {
+    color: #5b834e;
+}
+.topnav .wechat {
+    font-family: '宋体',tahoma;
+    font-size: 12px;
+    color: #fff;
+}
+.login {
+    float: right;
+    padding: 8px 25px 0 0;
+}
+.login a {
+    color: #5b834e;
+}
+.login-btn {
+    float: right;
+    background-position: 0 -218px;
+    width: 92px;
+    height: 32px;
+    padding-right: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+.icon-user {
+    background-position: 0 -154px;
+    width: 9px;
+    height: 13px;
+    overflow: hidden;
+    position: absolute;
+    right: 52px;
+    top: 17px;
+    z-index: 999;
+}
+/*最上边结束*/
+#afooter{
+    position: absolute;
+    top: 993px;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    line-height: 20px;
+    background-position: top;
+    color: #6a6a6a;
+    background-color: #0e0e0e;
+    padding: 30px 0;
+    margin-top: 1600px;
+}
+#afooter a {
+    color: #6a6a6a;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1',tahoma,'\5b8b\4f53',sans-serif;
+}
+
+
+
+.wrap0 {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180612happynight/bg0.jpg) no-repeat 50% 0;
+}
+.wrap, .wrap0, #footer_ied {
+    min-width: 1000px;
+    width: 100%;
+    /*_width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1002?'1000px':'');*/
+}
+.wrap {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180612happynight/bg.jpg) no-repeat 50% 658px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.head {
+    height: 658px;
+    position: relative;
+}
+.hide {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.time_hd {
+     width: 100%;
+     height: 64px;
+     color: #fceab7;
+     font-size: 18px;
+     text-align: center;
+     padding-top: 6px;
+     position: absolute;
+     bottom: 186px;
+     left: 0;
+ }
+.time_hd strong {
+    color: #ffffff;
+}
+.take_btn {
+    width: 614px;
+    position: absolute;
+    bottom: 66px;
+    left: 50%;
+    margin-left: -307px;
+}
+.take_btn a {
+    display: block;
+    width: 267px;
+    height: 69px;
+    color: #f4d387;
+    font-size: 24px;
+    text-align: center;
+    line-height: 69px;
+    background-position: 0 -209px;
+}
+.c {
+    zoom: 1;
+}
+.one_left {
+    display: inline;
+    float: left;
+    width: 468px;
+    height: 898px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-right: 1px solid #fceab7;
+}
+.tit1 {
+    width: 338px;
+    height: 58px;
+    text-indent: -999em;
+    margin: 0 auto;
+    background-position: 0 0;
+}
+.sp {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180612happynight/sp.png) no-repeat;
+}
+.two_right {
+    display: inline;
+    float: right;
+    width: 460px;
+    padding: 0 20px;
+}
+.text_sm {
+    color: #fceab7;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+.text_sm strong {
+    color: #dca03a;
+}
+
+
+.text_tips {
+    color: #b7b7b7;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+.pic_sz {
+    width: 339px;
+    position: relative;
+    margin: 20px auto 0;
+}
+.pic_sz li {
+    display: inline;
+    float: left;
+    width: 339px;
+    height: 483px;
+    overflow: hidden;
+}
+.do {
+    width: 100%;
+    overflow: hidden;
+    zoom: 1;
+    text-align: center;
+    padding: 0 140px;
+    margin: 5px auto 0;
+}
+.do span.dotItem {
+    background-color: #fceab7;
+}
+.do span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    float: left;
+    margin: 0 10px;
+    border: 1px solid #fceab7;
+    border-radius: 50%;
+}
+.sz_name {
+    width: 339px;
+    color: #fceab7;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px auto 0;
+}
+/*.btn_lq {*/
+    /*display: block;*/
+    /*width: 267px;*/
+    /*height: 69px;*/
+    /*color: #f4d387;*/
+    /*font-size: 24px;*/
+    /*text-align: center;*/
+    /*line-height: 69px;*/
+    /*background-position: 0 -209px;*/
+    /*margin: 25px auto 0;*/
+/*}*/
+.time_lq {
+    color: #d6a046;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+.two_right {
+    display: inline;
+    float: right;
+    width: 460px;
+    padding: 0 20px;
+}
+.tit2 {
+    width: 338px;
+    height: 58px;
+    text-indent: -999em;
+    margin: 0 auto;
+    background-position: 0 -70px;
+}
+.sp {
+    background: url(//game.gtimg.cn/images/bns/cp/a20180612happynight/sp.png) no-repeat;
+}
+.par_dj1 {
+    margin-top: 35px;
+}
+.dj_list1 {
+    margin-left: -4px;
+}
+.dj_list1 li {
+    display: inline;
+    float: left;
+    width: 116px;
+    cursor: pointer;
+}
+.hover_link {
+    display: block;
+    width: 94px;
+    height: 93px;
+    margin: 0 auto;
+    position: relative;
+}
+.dj_list li img {
+    display: block;
+    margin: 0 auto;
+}
+.hover_link .hover_img {
+    display: none;
+}
+.hover_link .hover_img {
+    display: none;
+}
+
+.hover_img {
+    position: absolute;
+    top: 40px;
+    left: 94px;
+    z-index: 10;
+}
+.dj_list .on .btn_choice {
+    background-position: -379px -66px;
+}
+.btn_choice {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px auto 5px;
+}
+.dj_list li em {
+    display: block;
+    color: #fceab7;
+    font-size: 16px;
+    text-align: center;
+}
+.dj_list1 li {
+    display: inline;
+    float: left;
+    width: 116px;
+    cursor: pointer;
+}
+.dj_list li .btn_choice {
+    background-position: -379px -35px;
+}
+
+.time_lq {
+    color: #d6a046;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+.par_dj2 {
+    margin-top: 30px;
+}
+.dj_list2 {
+    margin-left: 50px;
+}
+.dj_list2 li {
+    display: inline;
+    float: left;
+    width: 94px;
+    margin: 0 43px;
+    cursor: pointer;
+}
+.dj_list .on .btn_choice {
+    background-position: -379px -66px;
+}
+.dj_list2 li em {
+    margin-top: 15px;
+}
+.par_dj2 .btn_lq {
+    margin: 45px auto 0;
+}
+
+.part2 {
+    padding: 0 166px;
+    margin-top: 915px;
+}
+.tit3 {
+     width: 399px;
+     height: 58px;
+     text-indent: -999em;
+     margin: 0 auto;
+     background-position: 0 -140px;
+ }
+.text_tips {
+      color: #b7b7b7;
+      font-size: 16px;
+      text-align: center;
+      margin-top: 30px;
+  }
+.text_sm {
+       color: #fceab7;
+       font-size: 18px;
+       text-align: center;
+       margin-top: 30px;
+   }
+.red_bag {
+    width: 510px;
+    height: 488px;
+    margin: 15px auto 0;
+    position: relative;
+}
+.round_img1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: circle 10s infinite linear;
+    -webkit-animation: circle 10s infinite linear;
+    -moz-animation: circle 10s infinite linear;
+}
+.round_img2 {
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: 36px;
+}
+.bag_img {
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 40px;
+}
+
+.time_lq {
+      color: #d6a046;
+      font-size: 16px;
+      text-align: center;
+      margin-top: 5px;
+  }
+.rule_list {
+       margin-top: 45px;
+       padding: 0 5px;
+       margin-bottom: 30px;
+   }
+.rule_list li {
+    display: inline;
+    float: left;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.rule_list li em {
+    float: left;
+    width: 26px;
+    height: 26px;
+    color: #d5ba7a;
+    text-align: center;
+    margin-right: 10px;
+    background-position: -373px 0;
+}
+.rule_list li span {
+    float: left;
+    width: 954px;
+    color: #b7b7b7;
+}
+.tit3 {
+    width: 399px;
+    height: 58px;
+    text-indent: -999em;
+    margin: 0 auto;
+    background-position: 0 -140px;
+}
+.btn_lq:hover {
+    background-position: 0 -286px;
+}
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font: 12px/1.5 '\5FAE\8F6F\96C5\9ED1';
+    padding-top: 42px;
+    text-align: justify;
+     background-color: #1a1724;
+    overflow-x: hidden;
+}
+iframe {
+    position: absolute;
+}

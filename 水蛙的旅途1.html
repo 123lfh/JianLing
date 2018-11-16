@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/水蛙的旅途.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/jquery.min.js"></script>
+    <!--<script src="js/水蛙的旅途.js"></script>-->
+</head>
+<body>
+<header>
+    <div class="nav0" id="nav">
+        <div class="inner">
+            <ul class="nav_ul clear">
+                <li class="nav_li">
+                    <a href=""></a>
+                </li>
+                <li class="nav_li1">
+
+                </li>
+                <li class="nav_li2">
+                    <p class="nav_p1 ">
+                        <a href="">返回官网首页</a>
+                    </p>
+                    <p class="nav_p2">
+                        <a class="nav_p2_a" href="">游戏下载</a>
+                        <a class="nav_p2_a" href=""> 点券充值</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="shang" id="shang">
+        <h1>
+            <a href="" class="logo spr ti pa"></a>
+        </h1>
+        <div class="topbar spr" id="topbar">
+            <ul class="topnav">
+                <li class="spr lborder"><a href="欢迎页.html">进入官网</a></li>
+                <li class="spr"><a href="">灵值中心</a></li>
+                <li class="spr"><a href="">官方微博</a></li>
+                <li class="rborder c1">微信号：<em class="wechat">LOVEBNS</em></li>
+            </ul>
+            <div class="login" id="unlogin" style="display: block;">
+                <a class="login-btn pr spr" href="javascript:;" id="btn_qqlogin">登录<span class="icon-user spr pa"></span></a>
+            </div>
+            <div class="login" id="logined" style="display:none;">
+                <a class="login-btn logout pr spr" href="javascript:;" id="btn_logout">注销<span class="icon-out spr pa"></span></a>
+                <p class="login-text pr"><span class="icon-user spr pa"></span><span id="login_qq_span">-</span>，欢迎您！</p>
+            </div>
+        </div>
+    </div>
+</header>
+<article>
+    <div class="popup" id="popupRecord">
+        <a href="javascript:void(0);" onclick="closeDialog();" class="popup-close">×</a>
+        <h3 class="popup-hd">获奖记录</h3>
+        <div class="popup-bd">
+            <h4 class="popup-tip-hd">温馨提示</h4>
+            <p class="popup-tip-para">虚拟道具奖品在24小时内发送到您的游戏内仓库，请耐心等候，谢谢你的理解和支持</p>
+            <table class="popup-list">
+                <thead>
+                <tr><th>获奖时间</th><th>获奖大区</th><th>所获奖品</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>2016.11.27</td><td>一叶知秋</td><td>洪门神快速成长护符</td></tr>
+                <tr><td>2016.11.27</td><td>一叶知秋</td><td>洪门神快速成长护符</td></tr>
+                <tr><td>2016.11.27</td><td>一叶知秋</td><td>洪门神快速成长护符</td></tr>
+                <tr><td>2016.11.27</td><td>一叶知秋</td><td>洪门神快速成长护符</td></tr>
+                <tr><td>2016.11.27</td><td>一叶知秋</td><td>洪门神快速成长护符</td></tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="3">
+                        <a href="javascript:void(0);">上一页</a>
+                        <span><span class="cur">4</span>/10</span>
+                        <a href="javascript:void(0);">下一页</a>
+                    </td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="bg1">
+        <div class="cont1">
+            <i class="slogan"></i>
+            <a href="//wegame.com/" class="wegame-logo pa ti" title="WeGame" target="_blank">WeGame</a>
+        </div>
+    </div>
+    <div class="bg2">
+        <div class="cont2">
+            <p class="active-time">奖励领取时间 7月11日~9月10日 每日12:00后</p>
+            <p class="tit1">
+                每日登录游戏可获得食物（非游戏道具），给予水蛙作旅行干粮，点击【打包食物】后，水蛙将会前往剑灵的世界各地旅游。水蛙在次日将会寄回一张明信片，同<br>时会附有一份礼包。点击【领取礼包】后，水蛙会回到家中等待再次打包食物出游。
+            </p>
+            <div class="trips-info clearfix">
+                <div class="trips-img fl">
+                    <img id="admcai_nowImg" src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/gu-go.jpg" alt="" width="909" height="485">
+                    <a href="javascript:amsSubmit(149871,470194);" class="btn1 ti trans h-bright">打包食物</a>
+                </div>
+                <div class="trip-times fr">
+                    <span class="times-num">0</span>
+                    <a href="javascript:amsSubmit(149871,470575);" class="btn2 ti trans h-bright">领取水蛙的奖励</a>
+                    <p class="recv-tips">每次领取的奖励随机，具体请在游戏内确认</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg3">
+        <div class="cont3">
+            <p class="tit2">集齐一定数量的明信片可领取相应的礼包，每种礼包仅可领取一次。</p>
+            <ul class="cards clearfix">
+                <li>
+                    <dl class="clearfix">
+                        <dt class="ti dt-tit1">集齐3张</dt>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon01.jpg" alt="" width="75" height="76">
+                            <p>百货硬币*10</p>
+                        </dd>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon02.jpg" alt="" width="75" height="76">
+                            <p>高级武魂神物*3</p>
+                        </dd>
+                    </dl>
+                    <a href="javascript:changeGift(608346);" class="recv-btn ti trans h-bright">点击领取</a>
+                </li>
+                <li>
+                    <dl class="clearfix">
+                        <dt class="ti dt-tit2">集齐5张</dt>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon03.jpg" alt="" width="75" height="76">
+                            <p>神丹*2</p>
+                        </dd>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon04.jpg" alt="" width="75" height="76">
+                            <p>泰天之翼*10</p>
+                        </dd>
+                    </dl>
+                    <a href="javascript:changeGift(608347);" class="recv-btn ti trans h-bright">点击领取</a>
+                </li>
+                <li>
+                    <dl class="clearfix">
+                        <dt class="ti dt-tit3">集齐8张</dt>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon05.jpg" alt="" width="75" height="76">
+                            <p>苍穹盆地神物袋*4</p>
+                        </dd>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon06.jpg" alt="" width="75" height="76">
+                            <p>破天武魂神物*1</p>
+                        </dd>
+                    </dl>
+                    <a href="javascript:changeGift(608350);" class="recv-btn ti trans h-bright">点击领取</a>
+                </li>
+                <li>
+                    <dl class="clearfix">
+                        <dt class="ti dt-tit4">集齐12张</dt>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon07.jpg" alt="" width="75" height="76">
+                            <p>兰兰的礼物箱*3</p>
+                        </dd>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon08.jpg" alt="" width="75" height="76">
+                            <p>灿烂洪门成长护符*1</p>
+                        </dd>
+                    </dl>
+                    <a href="javascript:changeGift(608351);" class="recv-btn ti trans h-bright">点击领取</a>
+                </li>
+                <li>
+                    <dl class="clearfix">
+                        <dt class="ti dt-tit5">集齐16张</dt>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon09.jpg" alt="" width="75" height="76">
+                            <p>建元武魂神物*2</p>
+                        </dd>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon10.jpg" alt="" width="75" height="76">
+                            <p>元初碎片*2</p>
+                        </dd>
+                    </dl>
+                    <a href="javascript:changeGift(608352);" class="recv-btn ti trans h-bright">点击领取</a>
+                </li>
+                <li>
+                    <dl class="clearfix">
+                        <dt class="ti dt-tit6">集齐20张</dt>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon11.jpg" alt="" width="75" height="76">
+                            <p>天乾武魂神物*2</p>
+                        </dd>
+                        <dd>
+                            <img src="//game.gtimg.cn/images/bns/cp/a20180619ggtrip/icon12.jpg" alt="" width="75" height="76">
+                            <p>常胜牌*2</p>
+                        </dd>
+                    </dl>
+                    <a href="javascript:changeGift(608353);" class="recv-btn ti trans h-bright">点击领取</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg4">
+        <div class="cont4">
+            <p class="tit3">活动期间，通过WEGAME登录游戏累积5次、10次将各获得一次翻牌机会，永久水蛙族的希望（时装）等你哟，咕呱！</p>
+            <p class="times-trip clearfix"><a href="javascript:amsSubmit(149871,471110);" class="sign-btn ti trans h-bright">登记WEGAME登录次数</a><span>当前使用WEGAME登录次数：<em id="admcai_nowNum">0</em></span></p>
+            <div class="cards-show"></div>
+            <a href="javascript:;" class="btn3 ti trans h-bright">点击翻牌</a>
+        </div>
+    </div>
+    <div class="bg5">
+        <div class="cont5">
+            <div class="trips-photos-box">
+                <div class="trips-photos">
+                    <ul class="clearfix" id="admcai_mingxing">
+
+                    </ul>
+                </div>
+            </div>
+            <div class="pages-box clearfix">
+                <a href="javascript:beforePage();" class="page-btns prev-btn">上一页</a>
+                <a href="javascript:nextPage();" class="page-btns next-btn">下一页</a>
+            </div>
+        </div>
+    </div>
+</article>
+<footer>
+    <div id="afooter"><div id="footer_ieg"><div class="wrap_ieg"><p><a href="//ieg.tencent.com" target="_blank">腾讯互动娱乐</a>&nbsp;|&nbsp;<a href="//game.qq.com/contract.shtml" target="_blank">服务条款</a>&nbsp;|&nbsp;<a href="//privacy.qq.com/" target="_blank">隐私政策</a>&nbsp;|&nbsp;<a href="//game.qq.com/hr/" target="_blank">腾讯游戏招聘</a>&nbsp;|&nbsp;<a href="//kf.qq.com/" target="_blank">腾讯游戏客服</a>&nbsp;|&nbsp;<a href="//game.qq.com/gnav" target="_blank">游戏地图</a>&nbsp;|&nbsp;<a href="https://jiazhang.qq.com/jz/home.html?ADTAG=gamepcbottom" target="_blank">成长守护平台</a>&nbsp;|&nbsp;<a href="//game.qq.com/brand/business.htm" target="_blank">商务合作</a>&nbsp;|&nbsp;<a href="//www.qq.com/map/" target="_blank">网站导航</a></p><p class="e copyright_en">COPYRIGHT © 1998 – 2018 TENCENT. ALL RIGHTS RESERVED.</p><p class="copyright_zh"><a href="//www.tencent.com/law/mo_law.shtml?/law/copyright.htm" target="_blank">腾讯公司 版权所有</a></p></div></div></div>
+</footer>
+</body>
+</html>
